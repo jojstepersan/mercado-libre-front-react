@@ -1,0 +1,31 @@
+@import "../../assets/css/color.scss";
+
+.SearchBox {
+  display: inline-block;
+  width: 90%;
+  margin: 5px auto;
+  float: right;
+
+  input {
+    border: none;
+    height: 40px;
+    width: calc(100% - 80px);
+    padding: 0px 20px;
+
+  }
+
+  button {
+    background-color: $grey;
+    border: none;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+
+    img {
+      height: 12px;
+    }
+
+  }
+
+
+}

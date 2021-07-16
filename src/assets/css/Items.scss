@@ -1,0 +1,70 @@
+@import "../../assets/css/color.scss";
+
+.Items {
+  background-color: $white;
+  border-radius: 5px;
+  margin-bottom: 20%;
+  .item {
+    padding: 20px 0px;
+    margin: 0px 20px;
+    height: 160px;
+    margin-bottom: 1px;
+    border-bottom: 1px solid $grey;
+    cursor: pointer;
+
+    .container {
+      display: inline-block;
+      float: left;
+
+      &.image {
+        width: 160px;
+        height: 160px;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+        img {
+          margin: 0px auto;
+          max-height: 100%;
+          max-width: 100%;
+        }
+      }
+
+      &.desciption {
+        width : calc(100% - 320px);
+
+        .price {
+          font-size: 23px;
+          padding: 10px 0px 20px;
+        }
+
+        h3 {
+          font-size: 16px;
+          font-weight: 100;
+        }
+
+        .price, h3 {
+          display: block;
+          width: 90%;
+          margin: 0px auto;
+        }
+      }
+
+      &.address {
+        width: 160px;
+        margin: 30px auto;
+
+        p {
+          font-size: 10px;
+          text-align: right;
+          color:$grey_black;
+        }
+      }
+
+    }
+
+  }
+}

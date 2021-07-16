@@ -1,0 +1,26 @@
+@import "Color.scss";
+
+* {
+    margin: 0;
+    padding: 0px;
+    font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+}
+
+body {
+    background-color: $grey;
+
+    input, button {
+        box-shadow: none;
+        border: none;
+        outline: none;
+        &:focus {
+            box-shadow: none;
+            border: none;
+            outline: none;
+        }
+    }
+}
+
+.clear_fix {
+    clear: both;
+}

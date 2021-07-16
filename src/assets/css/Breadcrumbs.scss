@@ -1,0 +1,31 @@
+@import "../../assets/css/color.scss";
+
+.Breadcrumbs {
+  margin: 10px autos;
+  .container_categories {
+    li {
+      display: inline-block;
+      font-size: 12px;
+
+      a {
+        text-decoration: none;
+        color: $grey_black;
+      }
+
+      &::after {
+        color: $grey_black;
+        content: '|';
+        margin: 0px 5px;
+      }
+
+      &:last-child {
+        a {
+          color: $black;
+        }
+        &::after {
+          content : ''
+        }
+      }
+    }
+  }
+}

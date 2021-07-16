@@ -1,0 +1,8 @@
+{
+    "API_PATH": "https://api.mercadolibre.com/",
+    "LIMIT" : "&limit=",
+    "LIST_OF_ARTICLES" : "sites/MLA/search?q=:",
+    "GET_ARTICLE" : "items/",
+    "GET_DESCRIPTION" : "/description",
+    "GET_CATEGORIES" : "categories/"
+}
